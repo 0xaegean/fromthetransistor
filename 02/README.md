@@ -17,9 +17,9 @@
 
 - [VerilogQuickRef.pdf](uart/resources/VerilogQuickRef.pdf)
 
+- Uart Block Diagram
 - ![uartblockdiagram](uart/resources/uart-block-diagram.png)
-<img src="(uart/resources/uart-block-diagram.png" alt="" width="300" height="200">
 
+- Uart rx Block Diagram
 - ![uartrxblockdiagram](uart/resources/uart-rx-block-diagram.png)
-  2 <img src="(uart/resources/uart-rx-block-diagram.png" alt="" width="300" height="200">
 
