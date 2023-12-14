@@ -14,6 +14,8 @@
 
 - [Understanding Uart Video](https://www.youtube.com/watch?v=sTHckUyxwp8&ab_channel=RohdeSchwarz)
 
+- https://nandland.com/what-is-a-uart/
+
 - https://www.analog.com/en/analog-dialogue/articles/uart-a-hardware-communication-protocol.html
 
 - [VerilogQuickRef.pdf](uart/resources/VerilogQuickRef.pdf)
