@@ -7,7 +7,8 @@
 ## resources
 
 ### led
--
+
+- https://www.fpga4fun.com/Opto.html
 
 ### uart
 
