@@ -3,3 +3,9 @@
 - Blinkin an LED (Verilog, 10)
 
 - Building a UART (Verilog, 100)
+
+## Resources
+
+-
+
+-

@@ -15,4 +15,7 @@
 - [Integrated Circuit](https://en.wikipedia.org/wiki/Integrated_circuit)
 
 - [Logic Gate](https://en.wikipedia.org/wiki/Logic_gate)
--
+
+  ---
+
+  [notes(tr)](notes.md)
