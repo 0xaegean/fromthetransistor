@@ -4,8 +4,11 @@
 
 - Building a UART (Verilog, 100)
 
-## Resources
+## resources
 
+### led
 -
 
--
+### uart
+
+- https://www.youtube.com/watch?v=sTHckUyxwp8&ab_channel=RohdeSchwarz

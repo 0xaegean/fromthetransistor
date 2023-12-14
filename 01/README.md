@@ -1,6 +1,6 @@
 # Intro: Cheating our way past the transistor
 
-## Resources
+## resources
 
 - [Transistor](https://en.wikipedia.org/wiki/Transistor)
 
@@ -18,4 +18,4 @@
 
   ---
 
-  [notes(tr)](notes.md)
+  [personal notes(tr)](notes.md)
