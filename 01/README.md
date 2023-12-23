@@ -2,20 +2,8 @@
 
 ## resources
 
-- [Transistor](https://en.wikipedia.org/wiki/Transistor)
+- [transistor](https://youtu.be/J4oO7PT_nzQ?si=mu4elPYLteICtPy4)
 
-- [FPGA (Field-programmable gate array)](https://en.wikipedia.org/wiki/Field-programmable_gate_array)
+- https://nandland.com/fpga-101/
 
-- [LUT (Lookup table)](https://en.wikipedia.org/wiki/Lookup_table)
-
-- [Flip-Flop](https://en.wikipedia.org/wiki/Flip-flop_(electronics))
-
-- [Multiplexer](https://en.wikipedia.org/wiki/Multiplexer)
-
-- [Integrated Circuit](https://en.wikipedia.org/wiki/Integrated_circuit)
-
-- [Logic Gate](https://en.wikipedia.org/wiki/Logic_gate)
-
-  ---
-
-  [personal notes(tr)](notes.md)
+- [IC](https://youtu.be/drtUkvtxp6s?si=qGWPYot8EwddZHQ7)

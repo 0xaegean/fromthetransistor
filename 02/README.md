@@ -6,6 +6,8 @@
 
 ## resources
 
+-  [VerilogQuickRef.pdf](uart/resources/VerilogQuickRef.pdf)
+
 ### led
 
 - https://www.fpga4fun.com/Opto.html
@@ -16,9 +18,13 @@
 
 - https://nandland.com/what-is-a-uart/
 
-- https://www.analog.com/en/analog-dialogue/articles/uart-a-hardware-communication-protocol.html
+- https://nandland.com/uart-rs-232-serial-port-com-port/
 
-- [VerilogQuickRef.pdf](uart/resources/VerilogQuickRef.pdf)
+- https://youtu.be/sdVPO8rxWS0?si=yKO1fHy4WhjeUiLr
+
+- https://nandland.com/uart-serial-port-module/
+
+- https://www.analog.com/en/analog-dialogue/articles/uart-a-hardware-communication-protocol.html
 
 - Uart Block Diagram
 - ![uartblockdiagram](uart/resources/uart-block-diagram.png)
