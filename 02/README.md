@@ -6,7 +6,11 @@
 
 ## resources
 
+### verilog
+
 -  [VerilogQuickRef.pdf](uart/resources/VerilogQuickRef.pdf)
+
+- https://nandland.com/introduction-to-verilog-for-beginners-with-code-examples/
 
 ### led
 
@@ -18,9 +22,10 @@
 
 - https://nandland.com/what-is-a-uart/
 
+- https://youtu.be/sdVPO8rxWS0?si=yKO1fHy4WhjeUiLr
+
 - https://nandland.com/uart-rs-232-serial-port-com-port/
 
-- https://youtu.be/sdVPO8rxWS0?si=yKO1fHy4WhjeUiLr
 
 - https://nandland.com/uart-serial-port-module/
 
