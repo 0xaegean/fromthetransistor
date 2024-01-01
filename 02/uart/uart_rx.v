@@ -2,7 +2,7 @@ module uart_rx(
   input clk,
   input rst,
   input data_in,
-  output reg [7.0] data_out,
+  output reg [7:0] data_out,
   output reg rx_busy,
   output reg rx_err
 );
@@ -13,13 +13,10 @@ module uart_rx(
   //durum makineisi
   reg [1:0] state;
 
-  // hata bayrağı
-  reg rx_err;
-  
   always @(posedge clk) begin
     if (rst) begin 
       state <= 0;
-      data_Reg <= 0;
+      data_reg <= 0;
       rx_busy <= 0;
       rx_err <= 0;
     end else begin
