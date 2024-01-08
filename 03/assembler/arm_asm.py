@@ -1,32 +1,45 @@
-import binascii
+import re
 
-class ArmAssemblerInstruction:
-    def __init__(self, mnemonic, operands):
-        self.mnemonic = mnemonic
-        self.operands = operands
+def assemble(assembly_code):
+    """Assembles ARM assembly code into machine code."""
 
-        def __str__(self):
-            return f"{self.mnemonic} {self.operands}"
+    instructions = []
 
-        def to_binary(self):
-            return binascii.unhexlify(f"{self.mnemonic} {self.operands}")
+    patterns = {
+        r"ADD (\w+), (\w+), (\w+)": 0b00000000000000000000000000000001,
+        r"MOV (\w+), #(\d+)": 0b11100011000000000000000000000000,  
 
-def assemble_arm_instruction(mnemonic, operands):
-    instruction = ArmAssemblerInstruction(mnemonic, operands)
-    return instruction
 
-def disassemble_arm_instruction(instruction):
-    mnemonic = insruction.mnemonic
-    operands = instruction.operands
-    return mnemonic, operands
+    }
 
-def main():
-    instruction = assemble_arm_instruction("add", ["r0", "r1", "r2"])
-    print(instruction)
-    print(instruction.to_binary())
+    for line in assembly_code.splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            for pattern,encoding in patterns.items():
+                match = re.match(pattern, line)
+                if match:
+                    instructions.append((encoding, match.groups()))
+                    break
+                else:
+                    raise ValueError(f"Invalid instruction: {line}")
 
-    mnemonic, operands = disassemble_arm_instruction(instruction)
-    print(mnemonic, operands)
+    # generate binary_data
+    binary_data = bytearray()
+    for encoding, operands in instructions:
+        # Assemble each instruction's binary representation here
+        # Use operands to determine specific values within the encoding
+        binary_data.extend(encoding.to_bytes(4, byteorder='little')) # example
 
-if __name__ == "__main__":
-    main()
+    return binary_data
+
+# example usage
+assembly_code = """
+ADD R0, R1, R2
+MOV R3, #10
+#  more instructions here
+"""
+
+binary_data =  assemble(assembly_code)
+
+with open("output.bin", "wb") as f:
+    f.write(binary_data)
